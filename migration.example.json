@@ -3,7 +3,8 @@
     "host": "localhost",
     "database": "bmforum",
     "username": "username",
-    "password": "password"
+    "password": "password",
+    "prefix": "bmb_"
   },
   "user": {
     "moneyToReputation": 1,

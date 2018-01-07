@@ -3,17 +3,17 @@
 'use strict';
 
 const program = require('commander');
-const importer = require('52poke-forums-migration');
 const config = require('./migration.json');
-let executed = false;
+let executed = 0;
 
 program
   .command('import <type>')
   .action(function (type) {
-    if (executed) {
+    executed += 1;
+    if (executed !== 2) {
       return;
     }
-    executed = true;
+    const importer = require('52poke-forums-migration');
     importer.run(type, config);
   });
 

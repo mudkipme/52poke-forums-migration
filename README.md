@@ -7,7 +7,7 @@ This is a project to resurrect 52Poké Forums and migrate it to a modern [NodeBB
 
 ## Usage
 
-1. Clone this project to `node_modules` of the directory of NodeBB. Or `npm link` this project.
+1. Run `npm install git+https://github.com/mudkipme/52poke-forums-migration.git` to install.
 2. Copy `bin/import` to the root directory of NodeBB.
 3. Create a `migration.json` with the MySQL information of the old software.
 4. Run `./import import <type>`.
