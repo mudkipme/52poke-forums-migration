@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const program = require('commander');
+const importer = require('52poke-forums-migration');
+const config = require('./migration.json');
+let executed = false;
+
+program
+  .command('import <type>')
+  .action(function (type) {
+    if (executed) {
+      return;
+    }
+    executed = true;
+    importer.run(type, config);
+  });
+
+require('./src/cli');

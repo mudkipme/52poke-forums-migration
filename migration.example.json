@@ -1,0 +1,12 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "database": "bmforum",
+    "username": "username",
+    "password": "password"
+  },
+  "user": {
+    "moneyToReputation": 1,
+    "pointToReputation": 25
+  }
+}
