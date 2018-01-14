@@ -8,6 +8,8 @@
   },
   "user": {
     "moneyToReputation": 1,
-    "pointToReputation": 25
+    "pointToReputation": 25,
+    "bankInterest": 0.001,
+    "fixedInterest": 0.0015
   }
 }
