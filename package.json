@@ -27,6 +27,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.20.1",
     "mysql": "^2.15.0",
+    "sanitize-html": "^1.17.0",
     "turndown": "^4.0.1"
   }
 }
