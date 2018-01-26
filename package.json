@@ -4,7 +4,7 @@
   "description": "A project to resurrect 52Poké Forums and migrate it to a modern NodeBB instance.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/mudkipme/52poke-forums-migration#readme",
   "devDependencies": {
-    "eslint": "^4.15.0"
+    "eslint": "^4.15.0",
+    "jest": "^22.1.4"
   },
   "dependencies": {
     "bbcodejs": "0.0.4",
@@ -29,5 +30,8 @@
     "mysql": "^2.15.0",
     "sanitize-html": "^1.17.0",
     "turndown": "^4.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
