@@ -11,6 +11,13 @@ describe('52poke-forums-migration.bbcode', () => {
     expect(result).toEqual('[yourname@example.com](mailto:yourname@example.com)');
   });
 
+  test('quoted tag', () => {
+    const result = bbcode.markdownFromBBCode('[quoted=some title]Some custom text[/quoted]');
+    expect(result).toEqual(`> ### some title
+> 
+> Some custom text`);
+  });
+
   test('align tag', () => {
     const result = bbcode.markdownFromBBCode('[align=right]Some custom text[/align]');
     expect(result).toEqual('Some custom text');
