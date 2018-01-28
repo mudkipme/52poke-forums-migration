@@ -16,19 +16,22 @@ This is a project to resurrect 52Poké Forums and migrate it to a modern [NodeBB
 
 - [x] Create the NodeBB instance
 - [x] Set up user groups and boards
-- [ ] Migrate user data
-- [ ] A parser to convert BBCode to Markdown
-- [ ] Migrate topics
-- [ ] Migrate posts
+- [x] Migrate user data
+- [x] A parser to convert BBCode to Markdown
+- [x] Migrate topics
+- [x] Migrate posts
 - [ ] Migrate chats
+- [ ] Update parsed signatures
+- [ ] Simpified Chinese / Traditional Chinese conversion plugin
 - [ ] OAuth login from [52Poké Wiki](https://wiki.52poke.com/) users
 - [ ] Migrate the [Medal](https://wiki.52poke.com/wiki/%E5%A5%96%E7%89%8C)/[Badge](https://wiki.52poke.com/wiki/%E5%BE%BD%E7%AB%A0)/[Ribbon](https://wiki.52poke.com/wiki/%E5%A5%96%E7%AB%A0) system
 - [ ] A new Pokémon plugin for 52Poké Forums
-- [ ] Lock and seal the legacy 52Poké Forums
+- [ ] Lock the legacy 52Poké Forums
 
 ## Related Projects
 
 * __[paradise](https://github.com/mudkipme/paradise):__ *Currently unmaintained.* The new Pokémon plugin for 52Poké Forums.
+* __[nodebb-plugin-md5-password](https://github.com/mudkipme/nodebb-plugin-md5-password):__ Support login of imported users.
 
 ## Copyright
 
