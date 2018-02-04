@@ -24,7 +24,9 @@ This is a project to resurrect 52Poké Forums and migrate it to a modern [NodeBB
 - [x] Update parsed signatures
 - [x] Simpified Chinese / Traditional Chinese conversion plugin
 - [x] OAuth login from [52Poké Wiki](https://wiki.52poke.com/) users
-- [ ] Migrate the [Medal](https://wiki.52poke.com/wiki/%E5%A5%96%E7%89%8C)/[Badge](https://wiki.52poke.com/wiki/%E5%BE%BD%E7%AB%A0)/[Ribbon](https://wiki.52poke.com/wiki/%E5%A5%96%E7%AB%A0) system
+- [x] Migrate the [Medal](https://wiki.52poke.com/wiki/%E5%A5%96%E7%89%8C)/[Badge](https://wiki.52poke.com/wiki/%E5%BE%BD%E7%AB%A0)/[Ribbon](https://wiki.52poke.com/wiki/%E5%A5%96%E7%AB%A0) system
+- [ ] A checking-in plugin for NodeBB
+- [ ] Support wikilinks
 - [ ] A new Pokémon plugin for 52Poké Forums
 - [ ] Lock the legacy 52Poké Forums
 
@@ -33,6 +35,9 @@ This is a project to resurrect 52Poké Forums and migrate it to a modern [NodeBB
 * __[nodebb-plugin-sso-mediawiki](https://github.com/mudkipme/nodebb-plugin-sso-mediawiki):__ Allows users to login/register via 52Poké Wiki.
 * __[nodebb-plugin-opencc](https://github.com/mudkipme/nodebb-plugin-opencc):__ Translates forum content between Traditional and Simplified Chinese.
 * __[nodebb-plugin-md5-password](https://github.com/mudkipme/nodebb-plugin-md5-password):__ Supports login of imported users.
+* __[nodebb-theme-persona-52poke-forums](https://github.com/mudkipme/nodebb-theme-persona-52poke-forums):__ Adds necessary features to NodeBB's default theme.
+* __[nodebb-plugin-checkin](https://github.com/mudkipme/nodebb-plugin-checkin):__ Adds checking-in feature.
+* __[nodebb-plugin-trophies-updated](https://github.com/mudkipme/nodebb-plugin-trophies):__ Creates reward badges and ribbons.
 * __[paradise](https://github.com/mudkipme/paradise):__ *Currently unmaintained.* The new Pokémon plugin for 52Poké Forums.
 
 ## Copyright
