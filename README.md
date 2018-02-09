@@ -26,7 +26,7 @@ This is a project to resurrect 52Poké Forums and migrate it to a modern [NodeBB
 - [x] OAuth login from [52Poké Wiki](https://wiki.52poke.com/) users
 - [x] Migrate the [Medal](https://wiki.52poke.com/wiki/%E5%A5%96%E7%89%8C)/[Badge](https://wiki.52poke.com/wiki/%E5%BE%BD%E7%AB%A0)/[Ribbon](https://wiki.52poke.com/wiki/%E5%A5%96%E7%AB%A0) system
 - [x] A checking-in plugin for NodeBB
-- [ ] Support wikilinks
+- [x] Support wikilinks
 - [ ] A new Pokémon plugin for 52Poké Forums
 - [ ] Lock the legacy 52Poké Forums
 
@@ -38,6 +38,7 @@ This is a project to resurrect 52Poké Forums and migrate it to a modern [NodeBB
 * __[nodebb-theme-persona-52poke-forums](https://github.com/mudkipme/nodebb-theme-persona-52poke-forums):__ Adds necessary features to NodeBB's default theme.
 * __[nodebb-plugin-checkin](https://github.com/mudkipme/nodebb-plugin-checkin):__ Adds checking-in feature.
 * __[nodebb-plugin-trophies-updated](https://github.com/mudkipme/nodebb-plugin-trophies):__ Creates reward badges and ribbons.
+* __[nodebb-plugin-wikilink](https://github.com/mudkipme/nodebb-plugin-wikilink):__ Links `[[text]]` with 52Poké Wiki.
 * __[paradise](https://github.com/mudkipme/paradise):__ The Pokémon plugin for 52Poké Forums.
 
 ## Copyright
